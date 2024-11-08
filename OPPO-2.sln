@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "OPPO-2", "OPPO-2\OPPO-2.pyproj", "{C66D0600-4FB8-45BE-B2E3-D0F74AFA2B46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C66D0600-4FB8-45BE-B2E3-D0F74AFA2B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66D0600-4FB8-45BE-B2E3-D0F74AFA2B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7CDFB42-F969-44D6-A0D3-3135BFCFF3F6}
+	EndGlobalSection
+EndGlobal
