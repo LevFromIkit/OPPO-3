@@ -79,7 +79,7 @@ printSmartAllDevice()
 
 print('\n\n\n-------- Work with File --------')
 
-input_txt = open('C://Users/Honor/Downloads/input-oppo-2.txt', 'r')
+input_txt = open('input-oppo-2.txt', 'r')
 for i in input_txt:
     command = i.split()
     if command[0] == 'PRINT':
