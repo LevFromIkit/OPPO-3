@@ -58,6 +58,14 @@ class TestSmartDevices(unittest.TestCase):
         self.assertEqual(thermostat.vendor, 'Honeywell')
         self.assertEqual(str(thermostat), 'Производитель: Honeywell, Мин.Температура: 0, Макс.Температура: 50')
 
+    def test_thermostat_creation(self):
+        """Тест создания термостата с производителем с пробелами и правильного отображения"""
+        thermostat = Thermostat(0, 50, 'Honeywell Pop')
+        self.assertEqual(thermostat.min_temp, 0)
+        self.assertEqual(thermostat.max_temp, 50)
+        self.assertEqual(thermostat.vendor, 'Honeywell')
+        self.assertEqual(str(thermostat), 'Производитель: Honeywell Pop, Мин.Температура: 0, Макс.Температура: 50')
+
     def test_remove_device(self):
         """Тест удаления устройств указанного производителя"""
         self.lamp_container, self.plug_container, self.thermostat_container = remove_device(
