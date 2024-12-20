@@ -1,7 +1,7 @@
 PRINT
-ADD Лампочка 19 54 Volt
-ADD Розетка 32 NoName
-ADD Термостат 14 81 JJ
+ADD Р›Р°РјРїРѕС‡РєР° 19 54 Volt
+ADD Р РѕР·РµС‚РєР° 32 NoName
+ADD РўРµСЂРјРѕСЃС‚Р°С‚ 14 81 JJ
 PRINT
 REM NoName
 PRINT
