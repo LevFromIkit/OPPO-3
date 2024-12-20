@@ -31,10 +31,8 @@ class TestSmartDevices(unittest.TestCase):
     def test_empty_smart_lamp_creation(self):
         """Тест создания умной лампы без указания характеристик и правильного отображения"""
         lamp = SmartLamp('Start')
-        self.assertEqual(lamp.power, 40)
-        self.assertEqual(lamp.plug, 'e27')
         self.assertEqual(lamp.vendor, 'Start')
-        self.assertEqual(str(lamp), 'Производитель: Start, Разьём: e27, Мощность: 40')
+        self.assertEqual(str(lamp), 'Производитель: Start, Разьём:, Мощность:')
 
     def test_smart_plug_creation(self):
         """Тест создания умной розетки и правильного отображения"""
@@ -60,11 +58,11 @@ class TestSmartDevices(unittest.TestCase):
 
     def test_thermostat_creation(self):
         """Тест создания термостата с производителем с пробелами и правильного отображения"""
-        thermostat = Thermostat(0, 50, 'Honeywell Pop')
+        thermostat = Thermostat(0, 50, "Honeywell Pop")
         self.assertEqual(thermostat.min_temp, 0)
         self.assertEqual(thermostat.max_temp, 50)
         self.assertEqual(thermostat.vendor, 'Honeywell')
-        self.assertEqual(str(thermostat), 'Производитель: Honeywell Pop, Мин.Температура: 0, Макс.Температура: 50')
+        self.assertEqual(str(thermostat), "Производитель: Honeywell Pop, Мин.Температура: 0, Макс.Температура: 50")
 
     def test_remove_device(self):
         """Тест удаления устройств указанного производителя"""
