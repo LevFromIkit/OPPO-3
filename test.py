@@ -4,7 +4,7 @@ import sys
 from main import SmartLamp, SmartPlug, Thermostat, remove_device, print_lamp, print_plug, print_thermostat, print_smart_all_device, add_lamp, main
 
 
-class TestSmartDevices(unittest.TestCase):
+class Ы(unittest.TestCase):
     
     # Включаем максимальный вывод для отладки
     maxDiff = None
